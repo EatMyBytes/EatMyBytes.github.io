@@ -70,8 +70,8 @@ li:nth-child(2){
 	transition:background 0.2s ease-in-out 0s;
 }
 #profilePicture{
-	width:200px;
-	height:200px;
+	width:250px;
+	height:250px;
 	background-color:#efe4b4;
 	margin:0 auto;
 	margin-top:90px;
