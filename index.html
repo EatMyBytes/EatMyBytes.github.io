@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang='en'>
+	<head>
+		<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link id="mobile-sheet" rel="stylesheet" type="text/css" href="">
+	</head>
+	<body>
+		<div id="container">
+			<div class="navigation">
+				<ul>
+					<li>
+						<!-- <button> -->
+						<i class="fa fa-git" style="font-size:30px"></i>
+						<!-- </button> -->
+					</li>
+					<li>Projects</li>
+					<li>About Me</li>
+					<li>Resume</li>
+				</ul>
+			</div>
+			<div id="parralax">
+				<h1 class="title" id="welcome">Welcome to my Portfolio</h1>
+				<div id="profilePicture"></div>
+			</div>
+			<div class="header">
+				<div class="myInfo">
+					<h1 id="name">Dominic .S</h1>
+					<!-- <h2 style="font-style:italic">--Portfolio</h2> -->
+					<h3 id="caption">--Programmer, Web Developer, Software Engineer, Graphics Designer</h3>
+					<p id="description">My portfolio website</p>
+					<button id="moreProjects" class="blueButton">My Projects</button>
+				</div>
+			</div>
+			<div id="quoteSection">
+				<div id="quote">
+					<p>Programming quote - <br>"Most good programmers do programming not because they expect to get paid or get adulation by the public, but because <bold>it is fun to program"</bold><span> - Linus Torvalds</span></p>
+				</div>
+			</div>
+			<div class="content">
+				<h1 class="title" id="myProjectsTitle">My Projects</h1>
+				<div class="project">
+					<div class="project-head">
+						<div class="circle grey"></div>
+						<div class="circle orange"></div>
+						<div class="circle yellow"></div>
+					</div>
+					<div class="project-info">
+						<p class="project-title">
+							<strong>Morse Code Translator</strong>
+						</p>
+						
+						<p class="project-description">In this project, I created a program that can translate regular text into Morse Code. It can also play the Morse translation using a oscillator and can hear morse code using audio data.</p>
+					</div>
+					<div class="project-image" style="background-image:url(MorseCodeImage.jpg);"></div>
+				</div>
+				<button class="blueButton runProject"><a href="projects/morse-code/index.html" onclick="window.open(this.href); return false;">Run Morse Code</a></button>
+				
+			</div>
+			<footer>
+				<p>Copyright (C) Dominic Strong - EatMyBytes 2018</p>
+			</footer>
+			<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+			<script src="script.js"></script>
+			<div>
+			</body>
+		</html>
