@@ -7,13 +7,13 @@ $(function() {
     console.log(screen)
     if (screen.width < 600) {
 
-        style = $("#mobile-sheet")
-        $(style).attr("href", "mobile-style.css")
+        //style = $("#mobile-sheet")
+        //$(style).attr("href", "mobile-style.css")
 
-        setInterval(function() {
-            $("#profilePicture").css(
-                "height", $("#profilePicture").css("width")
-            )
-        }, 1000 / 60)
+        //setInterval(function() {
+           // $("#profilePicture").css(
+             //   "height", $("#profilePicture").css("width")
+           // )
+       // }, 1000 / 60)
     }
 })
