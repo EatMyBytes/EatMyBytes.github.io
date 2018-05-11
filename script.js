@@ -8,7 +8,7 @@ $(function() {
     if (screen.width < 500) {
 
         style = $("#mobile-sheet")
-        $(style).attr("href", "mobile-style.css")
+        $(style).attr("href", "https://eatmybytes.github.io/mobile-style.css")
 
         setInterval(function() {
             $("#profilePicture").css(
