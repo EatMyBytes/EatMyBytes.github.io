@@ -1,0 +1,106 @@
+.headerTitle{
+	border:0px solid red;
+	text-align: center;
+}
+.navigation{
+	text-align: center !important;
+	padding:0 !important;
+	transition:background none !important;
+	background-color:white !important;
+	position: fixed;
+}
+.navigation > ul > li:last-child {
+    float: left;
+}
+.navigation > ul > li {
+    float: none !important;
+    /*font-size: 18px;*/
+    color: black !important;
+    padding: 9px;
+    font-size: 17px;
+    z-index: 15;
+    /* border: 2px solid white; */
+}
+.nav-title {
+	display: block;
+	position:fixed;
+	left:10px;
+	top:0;
+	line-height:70px;
+	font-size:22px;
+	color:black;
+}
+#menu-icon{
+	display:block;
+	position:absolute;
+	right:15px;
+	top:10px;
+	z-index:30;
+
+	color:black;
+	font-size:100px;
+}
+#myDesc{
+	font-size: 22px;
+  text-align: center !important;
+}
+#descSide{
+	width:81%;
+	/*text-align: left;*/
+	margin: 0 auto;
+	padding:0 !important;
+}
+#picSide{
+	margin:0 auto;
+	width:85%;
+}
+#skills > .row {
+
+}
+#skills > .row > .col2{
+	width:90% !important;
+	margin:0 auto;
+	text-align: none;
+}
+.skill-description {
+    width: 100%;
+    text-align: none;
+    margin: 0;
+    font-size: 22px;
+}
+.skill-button{
+	font-size: 22px;
+}
+.navigation > ul > li {
+	margin:0;
+}
+.navigation {
+	text-align: center;
+}
+.navigation > ul{
+  list-style-type: none;
+  position: absolute;
+  /* text-decoration: none; */
+   width: 100%; 
+  /* margin: 0 auto; */
+  z-index: 15;
+  margin: 0;
+  text-align: center !important;
+  padding: 0; 
+  margin-top: 70px !important;
+  display:none;
+}
+.navigation > ul > li{
+	font-size:22px;
+	background-color:white;
+	width:100%;
+}
+.skill-head{
+	font-size:38px;
+}
+#menu-icon:hover {
+	cursor:pointer;
+}
+#footer{
+	font-size: 20px;
+}
